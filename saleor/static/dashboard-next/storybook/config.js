@@ -12,7 +12,9 @@ function loadStories() {
   require("./stories/components/TablePagination");
 
   // Categories
-  require("./stories/categories/CategoryBaseForm");
+  require("./stories/categories/CategoryDeleteDialog");
+  require("./stories/categories/CategoryDetailsPage");
+  require("./stories/categories/CategoryEditPage");
   require("./stories/categories/CategoryProducts");
   require("./stories/categories/CategorySubcategories");
   require("./stories/categories/ProductFilters");

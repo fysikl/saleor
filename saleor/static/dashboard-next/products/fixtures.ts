@@ -95,7 +95,8 @@ export const product = {
           sku: "2-1337",
           name: "XXL",
           priceOverride: null,
-          stockQuantity: 5
+          stockQuantity: 5,
+          margin: 20
         }
       },
       {
@@ -104,7 +105,8 @@ export const product = {
           sku: "2-1338",
           name: "XL",
           priceOverride: null,
-          stockQuantity: 0
+          stockQuantity: 0,
+          margin: 20
         }
       },
       {
@@ -113,7 +115,8 @@ export const product = {
           sku: "2-1339",
           name: "L",
           priceOverride: null,
-          stockQuantity: 15
+          stockQuantity: 15,
+          margin: 20
         }
       },
       {
@@ -122,7 +125,8 @@ export const product = {
           sku: "2-1340",
           name: "M",
           priceOverride: null,
-          stockQuantity: 33
+          stockQuantity: 33,
+          margin: 20
         }
       },
       {
@@ -131,7 +135,8 @@ export const product = {
           sku: "2-1341",
           name: "S",
           priceOverride: null,
-          stockQuantity: 0
+          stockQuantity: 0,
+          margin: 20
         }
       },
       {
@@ -140,7 +145,8 @@ export const product = {
           sku: "2-1342",
           name: "XS",
           priceOverride: null,
-          stockQuantity: 0
+          stockQuantity: 0,
+          margin: 20
         }
       }
     ]
@@ -151,12 +157,11 @@ export const product = {
   },
   url: "/pl/products/stewart-barrera-28/"
 };
-export const products = [
+export const products = (placeholderImage: string) => [
   {
     id: "UHJvZHVjdDox",
     name: "Gardner, Graham and King",
-    thumbnailUrl:
-      "/media/__sized__/products/saleor/static/placeholders/t-shirts/6_tdo7a5D-crop-c0-5__0-5-255x255-70.jpg",
+    thumbnailUrl: placeholderImage,
     productType: {
       id: "1",
       name: "T-Shirt"
@@ -165,8 +170,7 @@ export const products = [
   {
     id: "UHJvZHVjdDoy",
     name: "Gardner, Graham and King",
-    thumbnailUrl:
-      "/media/__sized__/products/saleor/static/placeholders/t-shirts/6_tdo7a5D-crop-c0-5__0-5-255x255-70.jpg",
+    thumbnailUrl: placeholderImage,
     productType: {
       id: "1",
       name: "T-Shirt"
@@ -175,8 +179,7 @@ export const products = [
   {
     id: "UHJvZHVjdDoz",
     name: "Gardner, Graham and King",
-    thumbnailUrl:
-      "/media/__sized__/products/saleor/static/placeholders/t-shirts/6_tdo7a5D-crop-c0-5__0-5-255x255-70.jpg",
+    thumbnailUrl: placeholderImage,
     productType: {
       id: "1",
       name: "T-Shirt"
@@ -185,8 +188,7 @@ export const products = [
   {
     id: "UHJvZHVjdDoa",
     name: "Gardner, Graham and King",
-    thumbnailUrl:
-      "/media/__sized__/products/saleor/static/placeholders/t-shirts/6_tdo7a5D-crop-c0-5__0-5-255x255-70.jpg",
+    thumbnailUrl: placeholderImage,
     productType: {
       id: "1",
       name: "T-Shirt"
